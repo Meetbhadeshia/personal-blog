@@ -56,7 +56,7 @@ app.get("/posts/:postContent", (req, res) => {
     const postContent = post.content
     //checking if requested url is same with the title
     if (requestedContent === postTitle) {
-      res.render('post', { postTitle: post.Title, postContent: postContent })
+      res.render('post', { postTitle: post.title, postContent: postContent })
     }
   })
 
