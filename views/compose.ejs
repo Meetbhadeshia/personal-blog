@@ -1,0 +1,17 @@
+<%- include("partials/header") -%>
+
+<h1>Compose</h1>
+
+<form style="user-select: auto;" action="/compose" method="post">
+    <div class="mb-3" style="user-select: auto;">
+      <label for="postTitle" class="form-label" style="user-select: auto;">Title</label>
+      <input type="text" class="form-control" name="postTitle" id="postTitle" style="user-select: auto;">
+    </div>
+    <div class="mb-3" style="user-select: auto;">
+      <label for="postBody" class="form-label" style="user-select: auto;">Post</label>
+      <textarea class="form-control" name="postBody" id="postBody" rows="4" style="user-select: auto;"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" style="user-select: auto;">Publish</button>
+</form>
+ 
+<%- include("partials/footer") -%>
