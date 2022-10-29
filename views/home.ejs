@@ -6,7 +6,7 @@
 
 <% posts.forEach((post)=>{ %>
     <h1><%= post.title %></h1>
-    <p><%= post.content.substring(0,100) + " ..." %> <a href='http://localhost:3000/posts/<%= post.title %>' >Read more</a></p>
+    <p><%= post.content.substring(0,100) + " ..." %> <a href='https://personal-blog-meet.herokuapp.com/posts/<%= post.title %>' >Read more</a></p>
 <% }) %>
 
 <%- include('partials/footer') -%>
