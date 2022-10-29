@@ -14,3 +14,5 @@ This website is used for creating personal blogs.
 1. Bootstrap
 1. Js
 1. Css
+
+This website is live at [link](https://personal-blog-meet.herokuapp.com/), and you can compose blogs at [link](https://personal-blog-meet.herokuapp.com/compose)
