@@ -10,7 +10,6 @@ This website is used for creating personal blogs.
 1. Node
 1. Express
 1. Ejs
-1. Html
 1. Bootstrap
 1. Js
 1. Css
